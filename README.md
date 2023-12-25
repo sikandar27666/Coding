@@ -1,2 +1,3 @@
 # Coding
-All the code are placed here
+ALL XML AND KOTLIN FILE IS IN MAIN FOLDER
+
