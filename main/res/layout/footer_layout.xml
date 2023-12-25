@@ -1,0 +1,22 @@
+<!-- res/layout/footer_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.7"
+    android:background="?android:attr/colorControlHighlight">
+
+    <TextView
+        style="@style/FooterTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="16dp"
+        android:text="© 2023 My App. All rights reserved."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <!-- Add other footer elements as needed -->
+
+</RelativeLayout>

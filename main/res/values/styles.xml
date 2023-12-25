@@ -1,0 +1,62 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+
+
+
+    <!-- Button Style -->
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <!-- Add other button-related styles as needed -->
+    </style>
+
+    <!-- EditText Style -->
+    <style name="MyEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textSize">16sp</item>
+        <!-- Add other edit text-related styles as needed -->
+    </style>
+    <!-- Footer Text Style -->
+    <style name="FooterTextStyle">
+        <item name="android:textStyle">italic</item> <!-- Make the text italic -->
+        <!-- Add other text-related styles as needed -->
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:background">#FFFFFF</item> <!-- Background color -->
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_gradient</item> <!-- Gradient background -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White text color -->
+    </style>
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:background">@drawable/spinner_background</item> <!-- Set a custom background -->
+        <item name="android:popupBackground">@android:color/white</item> <!-- Set the popup background color -->
+        <item name="android:dropDownSelector">@drawable/spinner_dropdown_selector</item> <!-- Set the dropdown selector -->
+        <item name="android:paddingStart">16dp</item> <!-- Adjust padding as needed -->
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textColor">@android:color/black</item> <!-- Set text color -->
+    </style>
+    <style name="ButtonStyle2" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/custom_button_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+</resources>

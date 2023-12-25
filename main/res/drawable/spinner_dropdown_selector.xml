@@ -1,0 +1,9 @@
+<!-- res/drawable/spinner_dropdown_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <color android:color="#E0E0E0" /> <!-- Set the color when pressed -->
+    </item>
+    <item>
+        <color android:color="@android:color/white" /> <!-- Set the default color -->
+    </item>
+</selector>

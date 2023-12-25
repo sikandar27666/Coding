@@ -1,0 +1,89 @@
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Taskmain">
+
+    <include layout="@layout/header_layout" />
+
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/app_name"
+        android:onClick="onNextButtonClick"
+        android:src="@android:drawable/ic_menu_revert"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginBottom="8dp"/>
+
+
+    <!-- Layout for user input and buttons -->
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- EditText for task title -->
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Title"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- EditText for task description -->
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Description"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Button to add a new task -->
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Add a new task"
+            android:text="Add" />
+
+        <!-- Button to edit the selected task -->
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Edit the selected task"
+            android:text="Edit" />
+
+        <!-- Button to delete the selected task -->
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Delete the selected task"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <include layout="@layout/footer_layout" />
+</LinearLayout>

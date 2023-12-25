@@ -1,0 +1,19 @@
+<!-- res/values/arrays.xml -->
+
+<resources>
+    <string-array name="weight_units">
+        <item>Kilograms</item>
+        <item>Pounds</item>
+    </string-array>
+
+    <string-array name="height_units">
+        <item>Meters</item>
+        <item>Centimeters</item>
+        <item>Inches</item>
+    </string-array>
+    <string-array name="notification_sounds">
+        <item>Default Notification Sound</item>
+        <item>Default Alarm Sound</item>
+        <item>Default Ringtone</item>
+    </string-array>
+</resources>

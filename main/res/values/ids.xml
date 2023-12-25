@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextTitle" type="id" />
+    <item name="deleteButton" type="id" />
+    <item name="checkBox" type="id" />
+    <item name="titleTextView" type="id" />
+    <item name="descriptionTextView" type="id" />
+    <item name="editTextTask" type="id" />
+    <item name="recyclerViewTasks" type="id" />
+    <item name="addButton" type="id" />
+</resources>
